@@ -13,8 +13,8 @@ I translate complex data into system-level solutions. Here are my current flagsh
 - **Visualization:** Streamlit, Power BI, Tableau
 
 ### 🎓 Education
-- **MS in Data Science**, George Washington University (In Progress)
-
+- **MS in Data Science**, George Washington University (Expected Graduation: May 2027)
+- **BA in Sport Management, Minor in Data Analytics & Statistics**, High Point University (Graduated December 2024)
 ### 📄 Need the full breakdown?
 [Download My Professional Resume](https://drive.google.com/file/d/1SNlEyyIJ_sdBEJNvHw3hyEQTzllKHuFm/view?usp=sharing)
 
