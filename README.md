@@ -6,7 +6,7 @@ I am a second year M.S. in Data Science student focused on machine learning, pre
 ### 🛠 Portfolio Projects
 I translate complex data into system-level solutions. Here are my current flagship projects:
 - **LungGuard**
-- **Problem:** Predicting individual lung cancer risk for clinical decision support
+*       **Problem:** Predicting individual lung cancer risk for clinical decision support
 - **Solution:** Benchmarked multiple models (Logistic Regression, Random Forest, LightGBM) with 5-fold stratified cross-validation along with 29 patient variables
 - **Outcome:** Deployed an interactive dashboard with real-time risk stratification and fairness audits across demographic subgroups
 - **Claims Guard:**
