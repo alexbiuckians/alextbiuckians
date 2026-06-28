@@ -19,6 +19,7 @@ I translate complex data into system-level solutions. Here are my current flagsh
     * **Problem:** Assessing player performance trajectories and contract value.
     * **Solution:** Built an end-to-end ML pipeline with quantile-based uncertainty bands and SHAP-based explainability.
     * **Outcome:** Enforced leakage-safe evaluation via expanding-window time-series CV, translating validated signals into a dollar-impact estimate.
+
 ### 💻 Technical Arsenal
 - **Languages & Frameworks:** (Scikit-Learn, LightGBM, XGBoost, PyTorch), SQL, SAS, C++, JavaScript, R (ggplot2)
 - **Specializations:** Predictive Modeling, Anomaly Detection, Time Series Analysis, Casual Inference, MLOps,  Statistical Analysis
