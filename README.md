@@ -1,14 +1,17 @@
 # Alex Biuckians | Data Scientist & ML Engineer
 
-I am a second year M.S. in Data Science student focused on machine learning, predictive modeling, explainable AI, and data visualization. I have experience building Python-based ML pipelines, evaluating model performance, applying SHAP-based explainability, and developing interactive dashboards to translate complex data into actionable insights.
+I am a second-year M.S. Data Science student at George Washington University focused on machine learning, predictive modeling, explainable AI, time-series analysis, and data visualization.
+
+I build end-to-end data science projects that move from raw data to feature engineering, model development, evaluation, explainability, and dashboard presentation. My current portfolio focuses on applied machine learning, model interpretation, and interactive tools that turn complex data into actionable insights.
 
 ### 🛠 Portfolio Projects
 I translate complex data into system-level solutions. Here are my current flagship projects:
 
 * **LungGuard**
-    * **Problem:** Predicting individual lung cancer risk for clinical decision support.
-    * **Solution:** Benchmarked multiple models (Logistic Regression, Random Forest, LightGBM) with 5-fold stratified cross-validation along with 29 patient variables.
-    * **Outcome:** Deployed an interactive dashboard with real-time risk stratification and fairness audits across demographic subgroups.
+    * **Problem:** Predicting individual lung cancer risk for clinical decision support.  
+   * **Solution:** Benchmarked Logistic Regression, Random Forest, and LightGBM models using 5-fold stratified cross-validation across 29 patient variables. Added SHAP explanations, probability calibration, fairness auditing, and a counterfactual “What-If” engine.  
+   * **Outcome:** Deployed an interactive Streamlit dashboard with real-time risk stratification and interpretable model outputs.
+
 
 * **Claims Guard**
     * **Problem:** Identifying fraudulent claims in complex healthcare data.
@@ -26,10 +29,15 @@ I translate complex data into system-level solutions. Here are my current flagsh
 - **Visualization:** Streamlit, Power BI, Tableau
 
 ### 🎓 Education
-- **MS in Data Science**, George Washington University (Expected Graduation: May 2027)
-- **BA in Sport Management, Minor in Data Analytics & Statistics**, High Point University (Graduated December 2024)
+**MS in Data Science**
+George Washington University — Expected May 2027
+- **BA in Sport Management, Minor in Data Analytics & Statistics**,
+High Point University — December 2024
 ### 📄 Need the full breakdown?
 [Download My Resume](https://drive.google.com/file/d/1SNlEyyIJ_sdBEJNvHw3hyEQTzllKHuFm/view?usp=sharing)
 
 ### 🔗 Let's Connect
 [LinkedIn](https://www.linkedin.com/in/alex-biuckians/)
+
+### Portfolio Website
+Coming soon
