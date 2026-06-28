@@ -1,6 +1,6 @@
 # Alex Biuckians | Data Scientist & ML Engineer
 
-I am a second year Master of Science in Data Science student focused on machine learning, predictive modeling, explainable AI, and data visualization. I have experience building Python-based ML pipelines, evaluating model performance, applying SHAP-based explainability, and developing interactive dashboards to translate complex data into actionable insights.
+I am a second year M.S. in Data Science student focused on machine learning, predictive modeling, explainable AI, and data visualization. I have experience building Python-based ML pipelines, evaluating model performance, applying SHAP-based explainability, and developing interactive dashboards to translate complex data into actionable insights.
 
 
 ### 🛠 Portfolio Projects
