@@ -4,24 +4,24 @@ I am a second-year M.S. Data Science student at George Washington University foc
 
 I build end-to-end data science projects that move from raw data to feature engineering, model development, evaluation, explainability, and dashboard presentation. My current portfolio focuses on applied machine learning, model interpretation, and interactive tools that turn complex data into actionable insights.
 
-### 🛠 Portfolio Projects
+### 🛠 Featured Projects
 I translate complex data into system-level solutions. Here are my current flagship projects:
 
 * **LungGuard**
-    * **Problem:** Predicting individual lung cancer risk for clinical decision support.  
+   * **Problem:** Predicting individual lung cancer risk for clinical decision support.  
    * **Solution:** Benchmarked Logistic Regression, Random Forest, and LightGBM models using 5-fold stratified cross-validation across 29 patient variables. Added SHAP explanations, probability calibration, fairness auditing, and a counterfactual “What-If” engine.  
    * **Outcome:** Deployed an interactive Streamlit dashboard with real-time risk stratification and interpretable model outputs.
 
 
 * **Claims Guard**
-    * **Problem:** Identifying fraudulent claims in complex healthcare data.
-    * **Solution:** Deployed an anomaly-detection system that tiers claims into a prioritized worklist, pairing each flag with SHAP attributions.
-    * **Outcome:** Validated a feature-pruned model that lifted top-tier fraud precision from 72% to 80% on a held-out test split.
+   * **Problem:** Identifying high-risk healthcare claims for fraud review.  
+   * **Solution:** Built an anomaly-detection system that tiers claims into a prioritized auditor worklist and pairs each flagged claim with SHAP-based explanations.  
+   * **Outcome:** Improved top-tier fraud precision from 72% to 80% on a held-out test split after validating a feature-pruned model.
 
 * **Parquet Capital**
-    * **Problem:** Assessing player performance trajectories and contract value.
-    * **Solution:** Built an end-to-end ML pipeline with quantile-based uncertainty bands and SHAP-based explainability.
-    * **Outcome:** Enforced leakage-safe evaluation via expanding-window time-series CV, translating validated signals into a dollar-impact estimate.
+   * **Problem:** Assessing NBA player performance trajectories and contract value.  
+   * **Solution:** Built an end-to-end machine learning pipeline with quantile-based uncertainty bands, expanding-window time-series validation, and SHAP-based explainability.  
+   * **Outcome:** Translated model outputs into contract valuation, salary-efficiency insights, and held-out dollar-impact estimates.
 
 ### 💻 Technical Arsenal
 - **Languages & Frameworks:** (Scikit-Learn, LightGBM, XGBoost, PyTorch), SQL, SAS, C++, JavaScript, R (ggplot2)
