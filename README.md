@@ -1,4 +1,4 @@
-# Alex Biuckians | Data Scientist & ML Engineer
+# Alex Biuckians | Data Scientist & Machine Learning Portfolio
 
 I am a second-year M.S. Data Science student at George Washington University focused on machine learning, predictive modeling, explainable AI, time-series analysis, and data visualization.
 
@@ -13,7 +13,7 @@ I translate complex data into system-level solutions. Here are my current flagsh
    * **Outcome:** Deployed an interactive Streamlit dashboard with real-time risk stratification and interpretable model outputs.
 
 
-* **Claims Guard**
+* **ClaimsGuard**
    * **Problem:** Identifying high-risk healthcare claims for fraud review.  
    * **Solution:** Built an anomaly-detection system that tiers claims into a prioritized auditor worklist and pairs each flagged claim with SHAP-based explanations.  
    * **Outcome:** Improved top-tier fraud precision from 72% to 80% on a held-out test split after validating a feature-pruned model.
@@ -24,12 +24,14 @@ I translate complex data into system-level solutions. Here are my current flagsh
    * **Outcome:** Translated model outputs into contract valuation, salary-efficiency insights, and held-out dollar-impact estimates.
 
 ### 💻 Technical Arsenal
-- **Languages & Frameworks:** (Scikit-Learn, LightGBM, XGBoost, PyTorch), SQL, SAS, C++, JavaScript, R (ggplot2)
-- **Specializations:** Predictive Modeling, Anomaly Detection, Time Series Analysis, Casual Inference, MLOps,  Statistical Analysis
-- **Visualization:** Streamlit, Power BI, Tableau
+- **Languages & Frameworks:** Python, SQL, R, SAS, C++, JavaScript
+- **Machine Learning:** Scikit-Learn, LightGBM, XGBoost, PyTorch, SHAP
+- **Data Analysis:** pandas, NumPy, SciPy, statistical analysis, model evaluation
+-  **Visualization:** Streamlit, Power BI, Tableau, Matplotlib, ggplot2
+-  **Focus Areas:** Predictive modeling, anomaly detection, explainable AI, time-series analysis, causal inference, MLOps, statistical analysis
 
 ### 🎓 Education
-**MS in Data Science**
+**M.S. in Data Science**
 George Washington University — Expected May 2027
 - **BA in Sport Management, Minor in Data Analytics & Statistics**,
 High Point University — December 2024
