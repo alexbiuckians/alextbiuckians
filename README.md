@@ -9,15 +9,23 @@ I am an M.S. Data Science student at George Washington University (May 2027) foc
 **Parquet Capital** — Front-office valuation engine that prices NBA contracts as financial assets.
 - *Approach:* Gradient-boosted quantile forecasts of player performance with uncertainty bands calibrated to ~80% empirical coverage against a real roll-forward; a PuLP optimizer for roster construction under the cap.
 - *Outcome:* A decision-level backtest on held-out seasons shows Overvalued flags cost ~8.6× more per delivered value point than Undervalued ones, with the signal confirmed across an independent target (VORP) and an independent model class. Built on 4,860 real player-seasons; 45 tests.
+
+
 **GridCast** — Hourly electricity-load forecasting, shipped like production software.
 - *Approach:* LightGBM with expanding-window time-series CV and leakage-safe features, served by a FastAPI inference API that engineers features server-side to eliminate train/serve skew, with MLflow tracking, Docker, and GitHub Actions CI.
 - *Outcome:* 72% reduction in MAE (2.67% vs 9.54% MAPE) over a seasonal-naive baseline on 18,169 held-out hours.
+
+
 **HouseEdge** — Adversarial game-integrity and advantage-play detection.
 - *Approach:* Simulates fair and subtly-rigged games, then detects rigging and advantage play under adversarial adaptation using sequential hypothesis testing (SPRT, CUSUM) and anomaly detection, deployed as a live Dash console.
 - *Outcome:* Quantified a detectability frontier — ~100% detection of a card counter in a median 83 hands at a 0.4% false-positive rate — and honestly documented the blind spot by building a Wong back-counter that evades detection at a +1% edge.
+
+
 **MacroQuant** — Real-time cross-asset market intelligence pipeline.
 - *Approach:* A streaming, two-lane ingestion design across five asset classes with on-the-fly OHLCV resampling, a live cross-asset correlation engine, and GARCH + LSTM forecasts merged into one overlay, surfaced in a self-refreshing Dash dashboard that degrades into replay mode when markets are closed.
 - *Outcome:* An end-to-end streaming data-engineering system with explicit, auditable proxy fallback for non-streamable macro series, deployable to Render.
+
+
 **UpliftIQ** — Causal uplift-modeling and retention API.
 - *Approach:* Benchmarked S-learner, T-learner, and Causal Forest on confounded observational data (propensity AUC ≈ 0.97); deployed the winning learner via FastAPI with Pydantic validation.
 - *Outcome:* A production CATE estimation engine that routes budget to persuadable customers — and explicitly declines to report the naive treated-vs-control gap as a causal effect.
