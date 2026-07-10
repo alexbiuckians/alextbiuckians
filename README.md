@@ -34,9 +34,13 @@ I am an M.S. Data Science student at George Washington University (May 2027) foc
 ## Technical Arsenal
  
 **Languages & Analytics:** Python, SQL, R, SAS, C++, JavaScript
+
 **ML & Data Science:** pandas, NumPy, SciPy, scikit-learn, LightGBM, XGBoost, PyTorch, SHAP, causalml, econml, Optuna, SMOTE, LangChain, ChromaDB
+
 **MLOps & Serving:** FastAPI, Pydantic, Docker, MLflow, GitHub Actions (CI), pytest, ruff, Render, REST APIs
+
 **Visualization & Apps:** Streamlit, Plotly, Dash, Power BI, Tableau, Matplotlib, seaborn, ggplot2, Shiny/Leaflet
+
 **Modeling & Analytics:** Regression, Classification, Causal Inference / Uplift Modeling, Time-Series Forecasting & CV, Anomaly Detection, Sequential Hypothesis Testing (SPRT/CUSUM), Retrieval-Augmented Generation, Model Evaluation, Statistical Analysis
  
 ## 🎓 Education
