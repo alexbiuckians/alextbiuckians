@@ -46,10 +46,14 @@ I am an M.S. Data Science student at George Washington University (May 2027) foc
 ## 🎓 Education
 **M.S. in Data Science**
 George Washington University — Expected May 2027
-- **BA in Sport Management, Minor in Data Analytics & Statistics**,
+**BA in Sport Management, Minor in Data Analytics & Statistics**,
 High Point University — December 2024
+
+
 ## 📄 Need the full breakdown?
 [Download My Resume](https://drive.google.com/file/d/1SNlEyyIJ_sdBEJNvHw3hyEQTzllKHuFm/view?usp=sharing)
+
+
 ## Let's Connect
 - **Portfolio:** https://alexbiuckians.github.io/AlexBiuckiansPortfolioSite/
 - **LinkedIn:** https://www.linkedin.com/in/alex-biuckians/
