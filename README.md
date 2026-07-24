@@ -1,36 +1,30 @@
 # Alex Biuckians | Data Scientist & Machine Learning Portfolio
  
-I am an M.S. Data Science student at George Washington University (May 2027) focused on production-grade machine learning: rigorous, honestly-benchmarked modeling shipped as deployed, tested services. My work targets the questions most models skip — whose decision an intervention can change, how few observations before you know, and whether a result survives a real baseline — and I hold every project to an honest number rather than a flattering one.
+I am an M.S. Data Science student at George Washington University (May 2027) who builds models on real, messy data and holds every one of them to an honest baseline. My work spans spatial statistics, forecasting under uncertainty, operations research, and the production monitoring that starts after a model ships — and each project reports what it can't prove alongside what it can, rather than a flattering number.
  
 **Portfolio site:** https://alexbiuckians.github.io/AlexBiuckiansPortfolioSite/
  
-## Featured projects
+## 🔬 Featured projects
  
-**Parquet Capital** — Front-office valuation engine that prices NBA contracts as financial assets.
-- *Approach:* Gradient-boosted quantile forecasts of player performance with uncertainty bands calibrated to ~80% empirical coverage against a real roll-forward; a PuLP optimizer for roster construction under the cap.
-- *Outcome:* A decision-level backtest on held-out seasons shows Overvalued flags cost ~8.6× more per delivered value point than Undervalued ones, with the signal confirmed across an independent target (VORP) and an independent model class. Built on 4,860 real player-seasons; 45 tests.
-
-
-**GridCast** — Hourly electricity-load forecasting, shipped like production software.
-- *Approach:* LightGBM with expanding-window time-series CV and leakage-safe features, served by a FastAPI inference API that engineers features server-side to eliminate train/serve skew, with MLflow tracking, Docker, and GitHub Actions CI.
-- *Outcome:* 72% reduction in MAE (2.67% vs 9.54% MAPE) over a seasonal-naive baseline on 18,169 held-out hours.
-
-
-**HouseEdge** — Adversarial game-integrity and advantage-play detection.
-- *Approach:* Simulates fair and subtly-rigged games, then detects rigging and advantage play under adversarial adaptation using sequential hypothesis testing (SPRT, CUSUM) and anomaly detection, deployed as a live Dash console.
-- *Outcome:* Quantified a detectability frontier — ~100% detection of a card counter in a median 83 hands at a 0.4% false-positive rate — and honestly documented the blind spot by building a Wong back-counter that evades detection at a +1% edge.
-
-
-**MacroQuant** — Real-time cross-asset market intelligence pipeline.
-- *Approach:* A streaming, two-lane ingestion design across five asset classes with on-the-fly OHLCV resampling, a live cross-asset correlation engine, and GARCH + LSTM forecasts merged into one overlay, surfaced in a self-refreshing Dash dashboard that degrades into replay mode when markets are closed.
-- *Outcome:* An end-to-end streaming data-engineering system with explicit, auditable proxy fallback for non-streamable macro series, deployable to Render.
-
-
-**UpliftIQ** — Causal uplift-modeling and retention API.
-- *Approach:* Benchmarked S-learner, T-learner, and Causal Forest on confounded observational data (propensity AUC ≈ 0.97); deployed the winning learner via FastAPI with Pydantic validation.
-- *Outcome:* A production CATE estimation engine that routes budget to persuadable customers — and explicitly declines to report the naive treated-vs-control gap as a causal effect.
-*Additional projects — EdgarIQ (retrieval-augmented Q&A over SEC 10-K filings), ClaimsGuard (explainable healthcare fraud-risk prioritization), and LungGuard (explainable lung-cancer risk prediction) — are on the [portfolio site](https://alexbiuckians.github.io/AlexBiuckiansPortfolioSite/).*
+**[TurnoutLens](https://github.com/alexbiuckians/TurnoutLens)** — U.S. county voter turnout, explained.
  
+- **Approach:** An R pipeline over 21,789 county-cycle observations from real MIT Election Lab returns and U.S. Census data, with PostgreSQL window functions, tidymodels benchmarking, DALEX explainability, and spatial statistics (Moran's I, LISA) on the model's residuals — served through a live Shiny/Leaflet map.
+- **Outcome:** Demographics alone explain 61% of out-of-sample variance (trained 2000–2020, tested on an unseen 2024), and the residuals cluster at Moran's I = 0.391 (p = 2.2e-290), with LISA clusters naming the same-day-registration states — the model recovers the effect of election law without ever being told it exists. It deliberately drops a lag feature that improves accuracy 19.5% because it masks the demographics and destroys the finding. [Live app](https://alexbiuckians.shinyapps.io/turnoutlens/)
+
+**[RouteCast](https://github.com/alexbiuckians/RouteCast)** — Last-mile delivery dispatch intelligence. 
+- **Approach:** 445,295 real parcel deliveries from Alibaba Cainiao's LaDe dataset, cleaned with a documented audit; three LightGBM quantile models predict P10/P50/P90 delivery time leakage-free by construction, feeding a Hungarian assignment optimizer and a SimPy discrete-event staffing simulation.
+- **Outcome:** Calibrated uncertainty (P90 covers 88.9% against a 90% target), and a decision the model can act on — the optimizer's edge grows with dispatch radius, but staffing the peak hotspot at ~10 couriers cuts average order time 37%, so staffing, not assignment, is the larger operational lever. [Live dashboard](https://alexbiuckians.github.io/RouteCast/dashboard/)
+
+
+**[DriftWatch](https://github.com/alexbiuckians/DriftWatch)** — Production monitoring for a deployed credit-default model.
+- **Approach:** Instruments every prediction through FastAPI middleware, detects data drift with KS/PSI statistics, reconciles late-arriving labels to measure performance decay separately, tracks latency at p50/p95/p99, and fires hysteresis-gated alerts with a written runbook and CI.
+- **Outcome:** Under concept drift the model's F2 falls 0.640 → 0.565 and recall collapses 0.88 → 0.62 **while data drift reads just 4%** — a monitor watching only drift reports "all clear" while the model silently misses 4 in 10 defaults. Real UCI data, honest held-out AUC ≈ 0.78. [Live app](https://driftmonitor.streamlit.app/)
+
+  
+## 📦 Also worth a look
+ 
+[Parquet Capital](https://github.com/alexbiuckians/Parquet-Capital) — NBA contract valuation; Overvalued flags cost 8.6× more per delivered value point on held-out seasons · [SignalText](https://github.com/alexbiuckians/SignalText) — a zero-shot LLM beats a fine-tuned transformer 95.6% vs 90.4%, and the weaker model is the more confident one · [TransitAccess](https://github.com/alexbiuckians/TransitAccess) — the same transit data yields equity ratios from 1.1 to 24.8 depending on assumptions nobody states · [StreamGuard](https://github.com/alexbiuckians/StreamGuard) — event-driven streaming anomaly & drift detection over Kafka · [HouseEdge](https://github.com/alexbiuckians/HouseEdge) — adversarial game-integrity detection with a quantified blind spot · [GridCast](https://github.com/alexbiuckians/GridCast) — hourly load forecasting, 72% MAE cut over baseline · [ExperimentLab](https://github.com/alexbiuckians/ExperimentLab) — A/B testing, CUPED, DiD and PSM with honest assumption-checking · [MacroQuant](https://github.com/alexbiuckians/MacroQuant) · [UpliftIQ](https://github.com/alexbiuckians/UpliftIQ) · [EdgarIQ](https://github.com/alexbiuckians/EdgarIQ) · [ClaimsGuard](https://github.com/alexbiuckians/ClaimsGuard)
+
 ## Technical Arsenal
  
 **Languages & Analytics:** Python, SQL, R, SAS, C++, JavaScript
