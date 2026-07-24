@@ -23,19 +23,41 @@ I am an M.S. Data Science student at George Washington University (May 2027) who
   
 ## 📦 Also worth a look
  
-[Parquet Capital](https://github.com/alexbiuckians/Parquet-Capital) — NBA contract valuation; Overvalued flags cost 8.6× more per delivered value point on held-out seasons · [SignalText](https://github.com/alexbiuckians/SignalText) — a zero-shot LLM beats a fine-tuned transformer 95.6% vs 90.4%, and the weaker model is the more confident one · [TransitAccess](https://github.com/alexbiuckians/TransitAccess) — the same transit data yields equity ratios from 1.1 to 24.8 depending on assumptions nobody states · [StreamGuard](https://github.com/alexbiuckians/StreamGuard) — event-driven streaming anomaly & drift detection over Kafka · [HouseEdge](https://github.com/alexbiuckians/HouseEdge) — adversarial game-integrity detection with a quantified blind spot · [GridCast](https://github.com/alexbiuckians/GridCast) — hourly load forecasting, 72% MAE cut over baseline · [ExperimentLab](https://github.com/alexbiuckians/ExperimentLab) — A/B testing, CUPED, DiD and PSM with honest assumption-checking · [MacroQuant](https://github.com/alexbiuckians/MacroQuant) · [UpliftIQ](https://github.com/alexbiuckians/UpliftIQ) · [EdgarIQ](https://github.com/alexbiuckians/EdgarIQ) · [ClaimsGuard](https://github.com/alexbiuckians/ClaimsGuard)
+[Parquet Capital](https://github.com/alexbiuckians/Parquet-Capital) — NBA contract valuation; Overvalued flags cost 8.6× more per delivered value point on held-out seasons 
+
+[SignalText](https://github.com/alexbiuckians/SignalText) — a zero-shot LLM beats a fine-tuned transformer 95.6% vs 90.4%, and the weaker model is the more confident one · 
+
+[TransitAccess](https://github.com/alexbiuckians/TransitAccess) — the same transit data yields equity ratios from 1.1 to 24.8 depending on assumptions nobody states · 
+
+[StreamGuard](https://github.com/alexbiuckians/StreamGuard) — event-driven streaming anomaly & drift detection over Kafka 
+
+[HouseEdge](https://github.com/alexbiuckians/HouseEdge) — adversarial game-integrity detection with a quantified blind spot  
+
+[GridCast](https://github.com/alexbiuckians/GridCast) — hourly load forecasting, 72% MAE cut over baseline
+
+[ExperimentLab](https://github.com/alexbiuckians/ExperimentLab) — A/B testing, CUPED, DiD and PSM with honest assumption-checking 
+
+[MacroQuant](https://github.com/alexbiuckians/MacroQuant) ·
+
+[UpliftIQ](https://github.com/alexbiuckians/UpliftIQ) 
+
+[EdgarIQ](https://github.com/alexbiuckians/EdgarIQ) · 
+
+[ClaimsGuard](https://github.com/alexbiuckians/ClaimsGuard)
 
 ## Technical Arsenal
  
 **Languages & Analytics:** Python, SQL, R, SAS, C++, JavaScript
 
-**ML & Data Science:** pandas, NumPy, SciPy, scikit-learn, LightGBM, XGBoost, PyTorch, SHAP, causalml, econml, Optuna, SMOTE, LangChain, ChromaDB
+**ML & Data Science:** pandas, NumPy, SciPy, scikit-learn, LightGBM, XGBoost, PyTorch, tidymodels, SHAP, DALEX, causalml, econml, statsmodels, Optuna, SMOTE, LangChain, ChromaDB
 
-**MLOps & Serving:** FastAPI, Pydantic, Docker, MLflow, GitHub Actions (CI), pytest, ruff, Render, REST APIs
+**MLOps & Serving:** FastAPI, Pydantic, Docker, MLflow, GitHub Actions (CI), Evidently, pytest, ruff, Render, REST APIs
 
-**Visualization & Apps:** Streamlit, Plotly, Dash, Power BI, Tableau, Matplotlib, seaborn, ggplot2, Shiny/Leaflet
+**Data & Geospatial:** PostgreSQL, SQLite, GeoPandas, sf, NetworkX, Redpanda/Kafka, River, FAISS, GTFS, Census/ACS
 
-**Modeling & Analytics:** Regression, Classification, Causal Inference / Uplift Modeling, Time-Series Forecasting & CV, Anomaly Detection, Sequential Hypothesis Testing (SPRT/CUSUM), Retrieval-Augmented Generation, Model Evaluation, Statistical Analysis
+**Visualization & Apps:** Streamlit, Shiny, Dash, Plotly, Leaflet, Power BI, Tableau, Matplotlib, seaborn, ggplot2
+
+**Methods:** Quantile Regression, Causal Inference / Uplift Modeling, Spatial Statistics (Moran's I, LISA), Time-Series Forecasting & CV, Anomaly Detection, Sequential Hypothesis Testing (SPRT/CUSUM), A/B Testing, Difference-in-Differences, Operations Research, Retrieval-Augmented Generation
  
 ## 🎓 Education
 **M.S. in Data Science**
